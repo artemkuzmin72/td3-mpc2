@@ -1,0 +1,2 @@
+[console_scripts]
+train_node = turtlebot_rl.train.train_node:main

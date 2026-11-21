@@ -1,0 +1,57 @@
+[0.434s] Invoking command in '/home/artem/ros2_ws/src/turtlebot_rl': PYTHONPATH=/home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtlebot_rl build --build-base /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build install --record /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/install.log --install-scripts $base/lib/turtlebot_rl --single-version-externally-managed install_data
+[0.607s] running egg_info
+[0.616s] creating build/turtlebot_rl/turtlebot_rl.egg-info
+[0.616s] writing build/turtlebot_rl/turtlebot_rl.egg-info/PKG-INFO
+[0.617s] writing dependency_links to build/turtlebot_rl/turtlebot_rl.egg-info/dependency_links.txt
+[0.617s] writing entry points to build/turtlebot_rl/turtlebot_rl.egg-info/entry_points.txt
+[0.617s] writing requirements to build/turtlebot_rl/turtlebot_rl.egg-info/requires.txt
+[0.617s] writing top-level names to build/turtlebot_rl/turtlebot_rl.egg-info/top_level.txt
+[0.617s] writing manifest file 'build/turtlebot_rl/turtlebot_rl.egg-info/SOURCES.txt'
+[0.653s] /home/artem/.local/lib/python3.10/site-packages/vcs_versioning/overrides.py:609: UserWarning: No GlobalOverrides context is active. Auto-creating one with SETUPTOOLS_SCM prefix for backwards compatibility. Consider using 'with GlobalOverrides.from_env("YOUR_TOOL"):' explicitly.
+[0.653s]   return get_active_overrides().subprocess_timeout
+[0.654s] listing git files failed - pretending there aren't any
+[0.656s] reading manifest file 'build/turtlebot_rl/turtlebot_rl.egg-info/SOURCES.txt'
+[0.657s] writing manifest file 'build/turtlebot_rl/turtlebot_rl.egg-info/SOURCES.txt'
+[0.657s] running build
+[0.657s] running build_py
+[0.658s] creating /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl
+[0.658s] copying turtlebot_rl/utils.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl
+[0.658s] copying turtlebot_rl/__init__.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl
+[0.658s] creating /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent
+[0.658s] copying turtlebot_rl/td3_agent/__init__.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent
+[0.658s] copying turtlebot_rl/td3_agent/td3.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent
+[0.658s] copying turtlebot_rl/td3_agent/critic.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent
+[0.658s] copying turtlebot_rl/td3_agent/actor.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent
+[0.659s] copying turtlebot_rl/td3_agent/replay_buffer.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent
+[0.659s] running install
+[0.662s] running install_lib
+[0.672s] creating /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl
+[0.672s] copying /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/utils.py -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl
+[0.672s] creating /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/td3_agent
+[0.672s] copying /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent/__init__.py -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/td3_agent
+[0.672s] copying /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent/td3.py -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/td3_agent
+[0.672s] copying /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent/critic.py -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/td3_agent
+[0.672s] copying /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent/actor.py -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/td3_agent
+[0.672s] copying /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent/replay_buffer.py -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/td3_agent
+[0.672s] copying /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/__init__.py -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl
+[0.672s] byte-compiling /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/utils.py to utils.cpython-310.pyc
+[0.672s] byte-compiling /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/td3_agent/__init__.py to __init__.cpython-310.pyc
+[0.673s] byte-compiling /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/td3_agent/td3.py to td3.cpython-310.pyc
+[0.673s] byte-compiling /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/td3_agent/critic.py to critic.cpython-310.pyc
+[0.674s] byte-compiling /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/td3_agent/actor.py to actor.cpython-310.pyc
+[0.674s] byte-compiling /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/td3_agent/replay_buffer.py to replay_buffer.cpython-310.pyc
+[0.675s] byte-compiling /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl/__init__.py to __init__.cpython-310.pyc
+[0.675s] running install_data
+[0.675s] creating /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/share/ament_index/resource_index/packages
+[0.675s] copying resource/turtlebot_rl -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/share/ament_index/resource_index/packages
+[0.675s] copying package.xml -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/share/turtlebot_rl
+[0.675s] creating /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/share/turtlebot_rl/launch
+[0.675s] copying launch/maze.launch.py -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/share/turtlebot_rl/launch
+[0.675s] creating /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/share/turtlebot_rl/worlds
+[0.675s] copying worlds/maze.world -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/share/turtlebot_rl/worlds
+[0.675s] running install_egg_info
+[0.684s] Copying build/turtlebot_rl/turtlebot_rl.egg-info to /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl-0.0.0-py3.10.egg-info
+[0.685s] running install_scripts
+[0.751s] Installing train_node script to /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/turtlebot_rl
+[0.751s] writing list of installed files to '/home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/install.log'
+[0.768s] Invoked command in '/home/artem/ros2_ws/src/turtlebot_rl' returned '0': PYTHONPATH=/home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtlebot_rl build --build-base /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build install --record /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/install.log --install-scripts $base/lib/turtlebot_rl --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+[0.674s] Invoking command in '/home/artem/ros2_ws/src/turtlebot_rl': PYTHONPATH=/home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtlebot_rl build --build-base /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build install --record /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/install.log --install-scripts $base/lib/turtlebot_rl --single-version-externally-managed install_data
+[0.907s] running egg_info
+[0.920s] writing build/turtlebot_rl/turtlebot_rl.egg-info/PKG-INFO
+[0.920s] writing dependency_links to build/turtlebot_rl/turtlebot_rl.egg-info/dependency_links.txt
+[0.921s] writing entry points to build/turtlebot_rl/turtlebot_rl.egg-info/entry_points.txt
+[0.921s] writing requirements to build/turtlebot_rl/turtlebot_rl.egg-info/requires.txt
+[0.921s] writing top-level names to build/turtlebot_rl/turtlebot_rl.egg-info/top_level.txt
+[0.973s] /home/artem/.local/lib/python3.10/site-packages/vcs_versioning/overrides.py:609: UserWarning: No GlobalOverrides context is active. Auto-creating one with SETUPTOOLS_SCM prefix for backwards compatibility. Consider using 'with GlobalOverrides.from_env("YOUR_TOOL"):' explicitly.
+[0.973s]   return get_active_overrides().subprocess_timeout
+[0.974s] listing git files failed - pretending there aren't any
+[0.976s] reading manifest file 'build/turtlebot_rl/turtlebot_rl.egg-info/SOURCES.txt'
+[0.977s] writing manifest file 'build/turtlebot_rl/turtlebot_rl.egg-info/SOURCES.txt'
+[0.977s] running build
+[0.977s] running build_py
+[0.977s] copying turtlebot_rl/utils.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl
+[0.978s] copying turtlebot_rl/__init__.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl
+[0.978s] copying turtlebot_rl/td3_agent/__init__.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent
+[0.978s] copying turtlebot_rl/td3_agent/td3.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent
+[0.978s] copying turtlebot_rl/td3_agent/critic.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent
+[0.978s] copying turtlebot_rl/td3_agent/actor.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent
+[0.978s] copying turtlebot_rl/td3_agent/replay_buffer.py -> /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build/lib/turtlebot_rl/td3_agent
+[0.979s] running install
+[0.983s] running install_lib
+[0.995s] running install_data
+[0.995s] copying resource/turtlebot_rl -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/share/ament_index/resource_index/packages
+[0.995s] copying package.xml -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/share/turtlebot_rl
+[0.997s] copying launch/maze.launch.py -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/share/turtlebot_rl/launch
+[0.997s] copying worlds/maze.world -> /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/share/turtlebot_rl/worlds
+[0.997s] running install_egg_info
+[1.008s] removing '/home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl-0.0.0-py3.10.egg-info' (and everything under it)
+[1.009s] Copying build/turtlebot_rl/turtlebot_rl.egg-info to /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages/turtlebot_rl-0.0.0-py3.10.egg-info
+[1.009s] running install_scripts
+[1.102s] Installing train_node script to /home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/turtlebot_rl
+[1.102s] writing list of installed files to '/home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/install.log'
+[1.139s] Invoked command in '/home/artem/ros2_ws/src/turtlebot_rl' returned '0': PYTHONPATH=/home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/artem/ros2_ws/src/turtlebot_rl/install/turtlebot_rl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtlebot_rl build --build-base /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/build install --record /home/artem/ros2_ws/src/turtlebot_rl/build/turtlebot_rl/install.log --install-scripts $base/lib/turtlebot_rl --single-version-externally-managed install_data
